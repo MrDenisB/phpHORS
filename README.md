@@ -1,8 +1,8 @@
 # majordomo-phphors
 
-Using class.
+Class using.
 You can find more info in README.md of modules/hors directory.
-
+```
 require_once(DIR_MODULES . 'hors/HorsTextParser.php');
 
 if(isset($params['p1'])) $str = $params['p1'];  // ." ".$params['URL'];
@@ -16,3 +16,4 @@ say('Source text: '.$Result->SourceText);
 say('Result text: '.$Result->Text);
 foreach($Result->Dates as $k=>$dat)
    if (isset($dat)) say ('{'.$k.'} : '.$dat->ToString());
+```
